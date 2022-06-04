@@ -9,7 +9,10 @@ body{
   flex-direction: column;
   color:rgb(100, 100, 100);
   font-family: 'Roboto', sans-serif;
+}
 
+a{
+  text-decoration: none;
 }
 
 #cabecalho{
@@ -92,7 +95,7 @@ body{
   transition: all 2s;
 }
 
-.dev:hover{
+#entre .inferior .dev:hover{
   color: goldenrod;
   
 }
@@ -156,7 +159,10 @@ li .maisADireita{
 
 .portfolio{
   color: goldenrod;
-  transition: all 2s;
+  transition: all 3s ease-in-out 0.5s;
+  transition: background 2s, transform 2s;
+  /* transition-timing-function: ease-in-out;
+  transition-delay: 3s; */
 }
 
 .portfolio:hover{
